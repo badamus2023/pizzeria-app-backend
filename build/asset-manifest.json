@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.568e8055.css",
-    "main.js": "/static/js/main.ccf3381f.js",
+    "main.js": "/static/js/main.8075c75b.js",
     "static/media/slice-crispy-pizza-with-meat-cheese.jpg": "/static/media/slice-crispy-pizza-with-meat-cheese.6281f1570110f665415d.jpg",
     "static/media/pizza-svgrepo-com.svg": "/static/media/pizza-svgrepo-com.2811b89ee7603d874194bc81236129f5.svg",
     "index.html": "/index.html",
     "static/media/basket-fill.svg": "/static/media/basket-fill.dd6a76ff8c3e192f2222735968cfc70c.svg",
     "static/media/trash.svg": "/static/media/trash.e3bf10332853025c5b591e51f81f3ad5.svg",
     "main.568e8055.css.map": "/static/css/main.568e8055.css.map",
-    "main.ccf3381f.js.map": "/static/js/main.ccf3381f.js.map"
+    "main.8075c75b.js.map": "/static/js/main.8075c75b.js.map"
   },
   "entrypoints": [
     "static/css/main.568e8055.css",
-    "static/js/main.ccf3381f.js"
+    "static/js/main.8075c75b.js"
   ]
 }
