@@ -15,6 +15,7 @@ const PORT = process.env.PORT
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 const __dirname = dirname(fileURLToPath(import.meta.url));
+app.use(express.static(path.join(__dirname, 'build')))
 
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -29,6 +30,9 @@ app.use((req, res, next) => {
     next();
   });
 
+  app.get('/', async (req,res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  })
 
   //pizzas
 
@@ -190,5 +194,5 @@ app.use((req, res, next) => {
   })
 
   app.listen(PORT, () => {
-    console.log(`server is running on port 3000 ${PORT}`)
+    console.log(`server is running on port ${PORT}`)
 })
